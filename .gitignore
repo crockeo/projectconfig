@@ -1,0 +1,15 @@
+# Compiled Java files
+*.class
+*.jar
+*.sc
+
+# Compiled C++ files
+*.o
+*.dll
+*.so
+*.exe
+
+# Eclipse files
+.classpath
+.project
+.settings/
