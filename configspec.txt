@@ -1,0 +1,32 @@
+7 comma separated lines,
+  line 1. chars
+  line 2. shorts
+  line 3. ints
+  line 4. longs
+  line 5. floats
+  line 6. doubles
+  line 7. strings
+
+For config:
+  Config(
+    "test" -> 'c'
+    "test2" -> 'd'
+    "testagain" -> (2: Short)
+    "test3" -> (5: Long)
+    "test4" -> (121: Long)
+  )
+  
+"""
+test=c,test2=d
+testagain=2
+|
+test3=5,test4=121
+|
+|
+|
+"""
+
+Where | represents no values being
+(This is true in practice as well)
+
+etc. etc. etc.
